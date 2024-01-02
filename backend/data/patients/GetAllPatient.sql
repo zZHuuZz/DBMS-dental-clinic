@@ -1,0 +1,7 @@
+SELECT [MaBenhNhan]
+      , [HoTen]
+      , [SDT]
+      , [GioiTinh]
+      , [NgaySinh]
+      , [DiaChi]
+FROM [QLPKNK].[dbo].[BENHNHAN]

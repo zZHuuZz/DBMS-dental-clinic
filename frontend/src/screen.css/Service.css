@@ -1,0 +1,44 @@
+h2 {
+  font-family: "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
+    "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-size: xx-large;
+  color: #04364a;
+}
+
+.grid {
+  text-align: center;
+  width: 100%; /* Auto width can sometimes lead to unexpected behavior */
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  padding-left: 10%;
+}
+
+.grid > * {
+  flex: 1 0 33.3333%; /* Adjust the flex basis to match the desired width of each service */
+}
+
+.services .service a {
+  border: 1px solid #ccc;
+  padding: 5px;
+  margin: 10px;
+  display: block;
+  text-decoration: none; /* Remove underline from links */
+  color: #04364a; /* Inherit text color from parent element */
+  font-style: oblique;
+
+  &:hover {
+    border-color: #04364a;
+    box-shadow: 0 0 10px #64ccc5;
+
+    transition: transform 0.2s ease-in-out;
+    transform: scale(1.01);
+  }
+}
+
+.services {
+  margin: 0 auto;
+  width: 80%; /* Adjust the width to your preference */
+  text-align: center;
+}

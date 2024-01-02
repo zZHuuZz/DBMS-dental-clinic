@@ -1,0 +1,8 @@
+SELECT [MaNhanVien]
+      , [HoTen]
+      , [SDT]
+      , [GioiTinh]
+      , [DiaChi]
+      , [TinhTrangHoatDong]
+      , [ViTri]
+FROM [QLPKNK].[dbo].[NHANVIEN]

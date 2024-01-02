@@ -1,0 +1,10 @@
+SELECT * FROM (
+SELECT MaNhanVien MaID,'NHANVIEN' VaiTro, HoTen, SDT, GioiTinh, DiaChi FROM [QLPKNK].[dbo].[NHANVIEN]
+UNION ALL
+SELECT MaNhaSi ID,'NHASI' VaiTro,  HoTen, SDT, GioiTinh, DiaChi FROM NHASI
+UNION ALL
+SELECT  MaBenhNhan ID,'BENHNHAN' VaiTro, HoTen, SDT, GioiTinh, DiaChi FROM BENHNHAN
+UNION ALL
+SELECT MaNhanVien ID,'QTV' VaiTro,  HoTen, SDT, null GioiTinh, null DiaChi FROM QTV
+) USER_LIST
+ORDER BY MaID

@@ -1,0 +1,16 @@
+.container {
+  width: 100%;
+}
+
+#hrduoi {
+  margin-block-start: 0em;
+  margin-block-end: -1em;
+  margin-inline-start: 0em;
+  margin-inline-end: 0em;
+  border: 5px solid #04364a;
+}
+
+#chigsa {
+  text-decoration: none;
+  color: white;
+}

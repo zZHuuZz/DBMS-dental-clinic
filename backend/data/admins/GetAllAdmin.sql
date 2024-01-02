@@ -1,0 +1,5 @@
+SELECT [MaNhanVien]
+      , [HoTen]
+      , [SDT]
+      , [Email]
+FROM [QLPKNK].[dbo].[QTV]

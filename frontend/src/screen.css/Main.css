@@ -1,0 +1,22 @@
+/* Main.css */
+
+.container-img {
+    text-align: left;
+    padding: 20px;
+  }
+  
+  .buttons-container {
+    margin-top: 20px;
+  }
+  
+  .btn {
+    margin: 5px;
+  }
+  
+  .welcome-section {
+    margin-top: 40px;
+    font-size: 1.5rem;
+  }
+  
+  /* Add more styles as needed */
+  

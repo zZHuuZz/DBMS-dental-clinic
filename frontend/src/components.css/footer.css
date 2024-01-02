@@ -1,0 +1,26 @@
+.link {
+  color: #04364a;
+  text-decoration: none;
+  font-style: oblique;
+}
+
+.link:hover {
+  color: whitesmoke;
+}
+
+p .Link {
+  padding-left: 10px;
+}
+
+.cus-icon {
+  display: flex;
+  justify-content: space-between;
+  max-width: 200px;
+  margin: 0 auto;
+}
+
+#footer-img {
+  padding-left: 40%;
+  max-width: 80px;
+  max-height: 80px;
+}
